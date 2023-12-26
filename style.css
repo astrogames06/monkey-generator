@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Rubik:wght@300&display=swap');
+
+@font-face {
+    font-family: 'Bagel';
+    src: url('font.ttf') format('truetype');
+}
+
+html, body
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-color: #9ACD6A;
+}
+
+#title
+{
+    font-family: 'Bagel', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: #6D9331;
+    background-color: #583B32;
+    width: 430px;
+    height: 60px;
+    line-height: 55px;
+    border-radius: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#monkey
+{
+    width: 250px;
+    height: 250px;
+    border-radius: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+}
+
+#monkey-id
+{
+    font-family: 'Bagel', sans-serif;
+    color: #6D9331;
+    text-align: center;
+    margin-top: 0;
+}
+
+#btns-div
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#download-btn
+{
+    width: 130px;
+    height: 40px;
+    border-radius: 100px;
+    border: none;
+    background-color: #525145;
+    color: #CFDAAE;
+    font-family: 'Bagel', sans-serif;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+#fullscreen-btn
+{
+    width: 130px;
+    height: 40px;
+    border-radius: 100px;
+    border: none;
+    background-color: #525145;
+    color: #CFDAAE;
+    font-family: 'Bagel', sans-serif;
+    font-size: 20px;
+}
